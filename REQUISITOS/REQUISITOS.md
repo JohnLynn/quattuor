@@ -1,4 +1,4 @@
-#REQUISITOS#
+
 # Quattuor #
 
 ## Visão Geral ##
