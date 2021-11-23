@@ -22,7 +22,6 @@ Agenda: Agenda online e receber pedidos online;
 Area do Clientes: Cadastro de clientes com registros de aniversario, telefone e mais;
 Area de Funcionarios: Cadastro de barbeiros e suas informações. 
 
-# Principais Concorrentes. #
 ### Nome :  AppBarber 
 ### LINK:  https://www.appbarber.com.br/
 Funcionalidades: Lembrete de Horário; Programa de fidelidade; Envio de notícias e promoções; Gestão Financeira;
