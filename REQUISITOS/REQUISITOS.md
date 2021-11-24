@@ -35,6 +35,6 @@ Agenda: Agenda online e receber pedidos online;
 Area do Clientes: Cadastro de clientes com registros de aniversario, telefone e mais; area de Funcionarios: Cadastro de barbeiros e suas informações.
 
 #### Nome :  Graces 
-#### LINK:  https://graces.com.br/pagamentos/
+#### LINK:  https://graces.com.br/
 Funcionalidades: Função marketing, crie e acompanhe suas campanhas e vouchers; Cadastro e gerenciamento de clientes; Monte pacotes de serviços recorrentes; Agendamento on-line para os clientes; Organizador de agenda e encaixes; Modo recepção, abra comandas para as clientes, lance serviços e vincule produtos aos serviços, conceda descontos; Controle de finanças; Recursos humanos, determine % diferente por serviços e por profissional, taxa de cartão, etc; Controle de estoque de produtos de revenda e de consumo evitando desperdícios; Relatório e paineis de indicadores.
 
