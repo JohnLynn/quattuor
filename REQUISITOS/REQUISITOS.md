@@ -1,5 +1,5 @@
 
-# Quattuor 
+![#1589F0](Quattuor) `#1589F0`
 
 ## Visão Geral 
 É um sistema de gestão on-line para barbearias que permite agendamentos de horários
