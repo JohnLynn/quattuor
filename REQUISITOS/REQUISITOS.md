@@ -1,6 +1,5 @@
 
 # Quattuor 
-
 ## Visão Geral 
 É um sistema de gestão on-line para barbearias que permite agendamentos de horários
 com diversos serviços previamente cadastrados organizando a agenda e otimizando os processos do estabelecimento.
@@ -25,7 +24,6 @@ Fornecer sugestões de serviço e profissional;
 
 
 ## Principais Concorrentes. 
-
 #### Nome: Okaut 
 #### LINK: https://okaut.com
 Funcionalidades: 
