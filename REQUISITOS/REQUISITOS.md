@@ -13,6 +13,7 @@ que pode ser acessado tanto pelo profissional (para acompanhar sua agenda, comis
 pelo cliente, para realizar agendamentos, receber notícias e promoções, lembretes automáticos, entre outros, facilitando e aproximando a barbearia do seu cliente.
 
 ## Mercado 
+Há varios sistemas com funcionalidades parecidas, porém nenhum deles se faz suficiente para a necessidade do mercado, onde cada profissional tem uma prioridade. Dito isso foi feita uma analise superficial pelo mercado, onde conseguimos perceber que a necessidade é maior do que o que está sendo fornecido. 
 
 ## Principais Funcionalidades 
 O Sistema tem como caracteristicas:
