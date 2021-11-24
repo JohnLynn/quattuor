@@ -16,11 +16,16 @@ Foi feita uma analise superficial pelo mercado, onde conseguimos perceber que a 
 
 ## Principais Funcionalidades 
 O Sistema tem como caracteristicas:
+Cadastro e gerenciamento de clientes;
 Realizar agendamento online para clientes;
 Consultar demanda dos barbeiros;
 Permitir formas de pagamento online;
-Oferecer lista de espera;
+Oferecer lista de espera e encaixes;
+Controle de estoque de produtos;
+Controle financeiro;
+Relatório e dashboards com indicadores;
 Fornecer sugestões de serviço e profissional;
+
 
 
 ## Principais Concorrentes. 
