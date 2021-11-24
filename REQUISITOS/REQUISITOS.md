@@ -24,7 +24,7 @@ Oferecer lista de espera e encaixes;
 Controle de estoque de produtos;
 Controle financeiro;
 Relatório e dashboards com indicadores;
-Fornecer sugestões de serviço e profissional;
+Fornecer sugestões de serviço e profissional.
 
 
 
