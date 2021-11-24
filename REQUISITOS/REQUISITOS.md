@@ -2,6 +2,13 @@
 # Quattuor #
 
 ## Visão Geral ##
+É um sistema de gestão on-line para barbearias que permite agendamentos de horários
+com diversos serviços previamente cadastrados organizando a agenda e otimizando os processos do estabelecimento.
+O sistema é dividido em dois módulos:
+#### Módulo WebAdmin #### onde você pode fazer toda gestão do estabelecimento, com controle de cada profissional, histórico 
+de clientes, estoque e excelentes relatórios financeiros. O sistema é armazenado em nuvem, o que proporciona um acesso seguro a qualquer hora e local.
+#### Módulo app #### que pode ser acessado tanto pelo profissional (para acompanhar sua agenda, comissões, entre outros) quanto 
+pelo cliente, para realizar agendamentos, receber notícias e promoções, lembretes automáticos, entre outros, facilitando e aproximando a barbearia do seu cliente.
 
 ## Mercado ##
 
