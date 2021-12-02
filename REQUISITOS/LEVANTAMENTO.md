@@ -28,8 +28,8 @@
 
 | Identificador  |  Descrição |  Prioridade | Depende  de  |
 | ------------ | ------------ | ------------ | ------------ |
-|  RF01 | O Sistema deve estar disponível para Android, iOS, Windows e Linux.  | Alta  | ---  |
-|  RF02 |  Os horários devem ser atualizados em tempo real para não ocorrer problemas com agendamento. |  Alta | RF01  |
+|  RF01 | O sistema deve permitir cadastrar os dados pessoais dos clientes e funcionários.  | Alta  | ---  |
+|  RF02 |  O sistema deve permitir cadastrar horários disponíveis. |  Alta | RF01  |
 |  RF03 |  O sistema deve permitir cadastrar procedimentos.| Alta  |  RF01 |
 |  RF04 |  O sistema deve emitir uma listagem  de horários disponíveis.  | Alta  | RF02  |
 |  RF05 |  O sistema deve permitir que o usuário/cliente faça marcações de procedimentos de acordo com os horários disponíveis. . | Alta  | RF01, RF02, RF03.  |
