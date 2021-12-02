@@ -42,3 +42,23 @@
 |  RF12 |  O sistema deve emitir relatórios gerenciais periódicos ao administrador.. | Alta  | ---  |
 |  RF13 |  O sistema deve permitir que o usuário/cliente possa gerar feedback ao estabelecimento ou funcionário.|  Média |  --- |
 |  RF14 | O sistema deve emitir notificações de lembrete ao usuário/cliente.  |  Média |RF08   |
+
+## Regras de Negócio 
+
+## Requisitos Não Funcionais
+| Identificador  |  Descrição |Categoria   |Escopo   |Prioridade   | Depende  de  |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| RNF01  |  O Sistema deve estar disponível para Android, iOS e WEB. | Portabilidade  |  Sistem |  Alta | --  |
+| RNF02  | Os horários devem ser atualizados em tempo real para não ocorrer problemas com agendamento.  |  Segurança |  Sistema | Alta  | --  |
+| RNF03  |  Deve oferecer criptografia para a segurança dos dados de acesso. |  Segurança | Sistema  | Alta  | --  |
+| RNF04  | Deve oferecer suporte e manutenção ao sistema sempre que houver algum problema.  |  Manutenção | Sistema  |  Alta | --  |
+| RNF05  |  O sistema deve estar disponível de 08:00 às 20:00 para agendamentos. |  Eficiência |  Sistema | Média | --  |
+| RNF06  | Um relatório geral deve ser entregue toda segunda-feira.  |  Entrega |  Sistema | Baixa  | RNF05.  |
+| RNF07  |  O Sistema deve atender às normas legais tais como padrões, leis e etc. | Legais  |  Sistema | Alta  | RNF01, RNF03.  |
+| RNF08  | O sistema não apresentará aos usuários quaisquer dados de cunho privativo (LGPD).  |  Éticos | Sistema  | Média  |  -- |
+| RNF09  | Os usuários terão um simples treinamento de uso do sistema  | Facilidade de Uso  | Funcionalidades  | Baixa  |  RNF01. |
+| RNF10  | Para pagamento online, autenticação de 2 etapas.  | Segurança  | Funcionalidades  | Média  |  RNF01,RNF02,RNF05.  |
+| RNF11  | O sistema deverá possuir sincronização com o serviço NTP.  | Interoperabilidade  | Sistema  | Alta  | RNF01,RNF02, RNF05.  |
+| RNF12  |  Deverá possuir espaço em disco de “ “ para armazenamento de dados. | Desempenho  | Sistema  | Alta   | --  |
+| RNF13  | É limitado 1 agendamento por cadastro  | Segurança  | Sistema  | Alta  | --  |
+| RNF14  | Ao fazer um agendamento deve ocupar o horário selecionado em no máximo 3 segundos.  | Desempenho  | Sistema  | Média  | RNF02, RNF11.  |
