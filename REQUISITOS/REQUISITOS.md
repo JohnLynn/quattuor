@@ -43,3 +43,6 @@ Area do Clientes: Cadastro de clientes com registros de aniversario, telefone e 
 #### LINK:  https://graces.com.br/
 Funcionalidades: Função marketing, crie e acompanhe suas campanhas e vouchers; Cadastro e gerenciamento de clientes; Monte pacotes de serviços recorrentes; Agendamento on-line para os clientes; Organizador de agenda e encaixes; Modo recepção, abra comandas para as clientes, lance serviços e vincule produtos aos serviços, conceda descontos; Controle de finanças; Recursos humanos, determine % diferente por serviços e por profissional, taxa de cartão, etc; Controle de estoque de produtos de revenda e de consumo evitando desperdícios; Relatório e paineis de indicadores.
 
+<div align="right">
+<img src="https://user-images.githubusercontent.com/94652912/144938411-2d1dbb6f-267b-4527-81e1-e3ecb3a11100.png" width="100px" />
+</div>
