@@ -3,3 +3,9 @@
 </div>
 
 *Nosso aplicativo traz a facilidade e a praticidade e o conforto para os donos de barbearias e os clientes que desejam um atendimento exemplar, trazendo a possibilidade de agendamento, verificação de serviços, disponibilidade de profissionais e pagamentos on-line para maior segurança.*
+
+
+
+<div align="right">
+<img src="https://user-images.githubusercontent.com/94652912/144938411-2d1dbb6f-267b-4527-81e1-e3ecb3a11100.png" width="100px" />
+</div>
