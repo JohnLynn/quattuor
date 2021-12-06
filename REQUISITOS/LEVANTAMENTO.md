@@ -62,3 +62,8 @@
 | RNF12  |  Deverá possuir espaço em disco de “ “ para armazenamento de dados. | Desempenho  | Sistema  | Alta   | --  |
 | RNF13  | É limitado 1 agendamento por cadastro  | Segurança  | Sistema  | Alta  | --  |
 | RNF14  | Ao fazer um agendamento deve ocupar o horário selecionado em no máximo 3 segundos.  | Desempenho  | Sistema  | Média  | RNF02, RNF11.  |
+
+
+<div align="right">
+<img src="https://user-images.githubusercontent.com/94652912/144938411-2d1dbb6f-267b-4527-81e1-e3ecb3a11100.png" width="100px" />
+</div>
