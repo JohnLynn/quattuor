@@ -48,20 +48,21 @@
 
 |  Identificador | Descrição  | Prioridade  | Depende De  |
 | ------------ | ------------ | ------------ | ------------ |
-| RN01  |  O Sistema deve validar CPF  | Alta  |  --  |
-| RN02  |  A senha de login deve ter, no minimo, 6 digitos  | Média  |  --  |
+| RN01  | O Sistema deve fazer a autenticação de CPF  | Alta  |  --  |
+| RN02  | A senha de login deve ter, no minimo, 6 ccaracteres númericos | Média  |  --  |
 | RN03  | Um profissional não poderá ser agendado por dois clientes para o mesmo horário  | Alta  |  --  |
-| RN04  |  O sistema deve permitir um cadastro por E-mail ou Telefone | Alta  |  --  |
-| RN05  | A tabela de horários preenchidos deve ser atualizada sempre após o ultimo agendamento |  Alta  |  --  |
-| RN06  |  O sistema deve emitir um alerta sempre que um profissional não estiver disponivel para agendamento  |  Média |  --  |
-| RN07  |  O alerta para os agendamentos de reservas deverá ser feita até 10 minutos antes do horário  |   |   |
-| RN08  |   |   |   |
-| RN09  |   |   |   |
-| RN10  |   |   |   |
-| RN11  |   |   |   |
-| RN12  |   |   |   |
-| RN13  |   |   |   |
-| RN14  |   |   |   |
+| RN04  | O sistema deve permitir um cadastro por CPF ou Email | Alta  |  --  |
+| RN05  | A tabela de horários preenchidos deve ser atualizada sempre após o ultimo agendamento, após no máximo 3 segundos |  Alta  |  --  |
+| RN06  | O sistema deve emitir um alerta sempre que um profissional não estiver disponivel para agendamento  |  Média |  --  |
+| RN07  | O alerta para os agendamentos de reservas deverá ser feita até 10 minutos antes do horário  | Baixa  | --  |
+| RN08  | O sistema deve suportar o tráfego de pelo menos 20 usuarios conectadas simultaneamente | Média  | --  |
+| RN09  | Os dados de cadastramento armazenados devem ser criptografados | Média  | --  |
+| RN10  | O sistema deve permitir que o cliente desmarque o agendamento até 15 min antes | Alta  |  -- |
+| RN11  | A senha do usuario deverá ter, no máximo, 8 caracteres númericos | Média  | --  |
+| RN12  | O sistema deve aceitar pagamentos via PIX, cartão de Credito ou no Local | Baixa |  -- |
+| RN13  | Ao concluir um agendamento o sistema deve solicitar o modo de pagamento  | Médio  |  -- |
+| RN14  | Após conclusão do procedimento o sistema deve gerar uma notificação de feedback ao cliente   | Baixa  |  -- |
+
 
 ## Requisitos Não Funcionais
 | Identificador  |  Descrição |Categoria   |Escopo   |Prioridade   | Depende  de  |
