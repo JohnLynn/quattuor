@@ -82,6 +82,35 @@
 | RNF14  | Ao fazer um agendamento deve ocupar o horário selecionado em no máximo 3 segundos.  | Desempenho  | Sistema  | Média  | RNF02, RNF11.  |
 | RNF15  | O sistema deverá emitir uma notificação de confirmação ao cliente 10 minutos antes do horário agendado  | Eficiência  | Sistema  | Baixa  | --  |
 
+## Cadastramento de usuário
+
+|  Campo | Tamanho  | Tipo |
+| ------------ | ------------ |------------ |
+| Email  | 255 | Texto
+|  CPF  |  11  | Texto
+| Senha | 08 | Numérico
+| Nome  | 255  | Texto
+| Telefone  |  09  | Numérico
+| Sexo  |  Inteiro | Texto
+
+## Login
+
+|  Campo | Tamanho  | Tipo |
+| ------------ | ------------ |------------ |
+| Email  / CPF  | Inteiro | Texto
+|  Senha  |  08  | Numérico
+
+## Atualização de Cadastro
+
+|  Campo | Tamanho  | Tipo |
+| ------------ | ------------ |------------ |
+| Email  | 255 | Texto
+|  CPF  |  11  | Texto
+| Senha | 08 | Numérico
+| Nome  | 255  | Texto
+| Telefone  |  09  | Numérico
+| Sexo  |  Inteiro | Texto
+
 <div align="right">
 <img src="https://user-images.githubusercontent.com/94652912/144938411-2d1dbb6f-267b-4527-81e1-e3ecb3a11100.png" width="100px" />
 </div>
