@@ -43,7 +43,7 @@
 |  RF13 | O sistema deve permitir que o usuário/cliente possa gerar feedback ao estabelecimento ou funcionário.|  Média |  --- |
 |  RF14 | O sistema deve emitir notificações de lembrete ao usuário/cliente.  |  Média |RF08   |
 
-## Regras de Negócio 
+### Regras de Negócio 
 
 
 |  Identificador | Descrição  | Prioridade  | Depende De  |
@@ -64,7 +64,8 @@
 | RN14  | Após conclusão do procedimento o sistema deve gerar uma notificação de feedback ao cliente   | Baixa  |  -- |
 
 
-## Requisitos Não Funcionais
+### Requisitos Não Funcionais
+
 | Identificador  |  Descrição |Categoria   |Escopo   |Prioridade   | Depende  de  |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | RNF01  | O Sistema deve estar disponível para Android, iOS e WEB. | Portabilidade  |  Sistem |  Alta | --  |
@@ -83,7 +84,9 @@
 | RNF14  | Ao fazer um agendamento deve ocupar o horário selecionado em no máximo 3 segundos.  | Desempenho  | Sistema  | Média  | RNF02, RNF11.  |
 | RNF15  | O sistema deverá emitir uma notificação de confirmação ao cliente 10 minutos antes do horário agendado  | Eficiência  | Sistema  | Baixa  | --  |
 
-## Cadastramento de usuário
+## Simulação de Telas
+
+### Cadastramento de usuário
 
 |  Campo | Tamanho  | Tipo |
 | ------------ | ------------ |------------ |
@@ -94,14 +97,14 @@
 | Telefone  |  09  | Numérico
 | Sexo  |  Inteiro | Texto
 
-## Login
+### Login
 
 |  Campo | Tamanho  | Tipo |
 | ------------ | ------------ |------------ |
 | Email  / CPF  | Inteiro | Texto
 |  Senha  |  08  | Numérico
 
-## Atualização de Cadastro
+### Atualização de Cadastro
 
 |  Campo | Tamanho  | Tipo |
 | ------------ | ------------ |------------ |
