@@ -45,6 +45,24 @@
 
 ## Regras de Negócio 
 
+
+|  Identificador | Descrição  | Prioridade  | Depende De  |
+| ------------ | ------------ | ------------ | ------------ |
+| RN01  |  O Sistema deve validar CPF  | Alta  |  --  |
+| RN02  |  A senha de login deve ter, no minimo, 6 digitos  | Média  |  --  |
+| RN03  | Um profissional não poderá ser agendado por dois clientes para o mesmo horário  | Alta  |  --  |
+| RN04  |  O sistema deve permitir um cadastro por E-mail ou Telefone | Alta  |  --  |
+| RN05  | A tabela de horários preenchidos deve ser atualizada sempre após o ultimo agendamento |  Alta  |  --  |
+| RN06  |  O sistema deve emitir um alerta sempre que um profissional não estiver disponivel para agendamento  |  Média |  --  |
+| RN07  |  O alerta para os agendamentos de reservas deverá ser feita até 10 minutos antes do horário  |   |   |
+| RN08  |   |   |   |
+| RN09  |   |   |   |
+| RN10  |   |   |   |
+| RN11  |   |   |   |
+| RN12  |   |   |   |
+| RN13  |   |   |   |
+| RN14  |   |   |   |
+
 ## Requisitos Não Funcionais
 | Identificador  |  Descrição |Categoria   |Escopo   |Prioridade   | Depende  de  |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
