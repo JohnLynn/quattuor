@@ -28,20 +28,25 @@
 
 | Identificador  |  Descrição |  Prioridade | Depende  de  |
 | ------------ | ------------ | ------------ | ------------ |
-|  RF01 | O sistema deve permitir cadastrar os dados pessoais dos clientes e funcionários.  | Alta  | ---  |
-|  RF02 | O sistema deve permitir cadastrar horários disponíveis. |  Alta | RF01  |
-|  RF03 | O sistema deve permitir cadastrar procedimentos.| Alta  |  RF01 |
-|  RF04 | O sistema deve emitir uma listagem  de horários disponíveis.  | Alta  | RF02  |
-|  RF05 | O sistema deve permitir que o usuário/cliente faça marcações de procedimentos de acordo com os horários disponíveis. . | Alta  | RF01, RF02, RF03.  |
-|  RF06 | O sistema deve emitir uma listagem de horários preenchidos.   |  Alta | RF05  |
-|  RF07 | O sistema deve permitir que o administrador tenha controle de toda a agenda de procedimentos.| Alta  |  RF05 |
-|  RF08 | O sistema deve permitir a consulta da agenda pessoal de cada funcionário.  | Alta  | RF05  |
-|  RF09 | O sistema deve permitir o agendamento de reserva.   |Alta   |  RF08 |
-|  RF10 | O sistema deve permitir que o usuário/cliente faça o pagamento online dos seus procedimentos. |  Alta |  --- |
-|  RF11 | O sistema deve permitir visualizar a duração de cada procedimento.  |  Média | RF03  |
-|  RF12 | O sistema deve emitir relatórios gerenciais periódicos ao administrador.. | Alta  | ---  |
-|  RF13 | O sistema deve permitir que o usuário/cliente possa gerar feedback ao estabelecimento ou funcionário.|  Média |  --- |
-|  RF14 | O sistema deve emitir notificações de lembrete ao usuário/cliente.  |  Média |RF08   |
+|  RF01 | O sistema deve permitir que os clientes façam Login|  Alta |  --- |
+|  RF02 | O sistema deve permitir que os Funcionarios façam Login|  Alta |  --- |
+|  RF03 | O sistema deve permitir cadastrar os dados pessoais dos clientes.  | Alta  | RF01  |
+|  RF04 | O sistema deve permitir cadastrar os dados pessoais dos funcionarios.  | Alta  | RF02  |
+|  RF05 | O sistema deve permitir cadastrar horários disponíveis. |  Alta | ---  |
+|  RF06 | O sistema deve permitir cadastrar procedimentos.| Alta  |  --- |
+|  RF07 | O sistema deve emitir uma listagem  de horários disponíveis.  | Alta  | RF05  |
+|  RF08 | O sistema deve permitir que o usuário/cliente faça marcações de procedimentos de acordo com os horários disponíveis. . | Alta  | RF03, RF05, RF06.  |
+|  RF09 | O sistema deve emitir uma listagem de horários preenchidos.   |  Alta | RF08  |
+|  RF10 | O sistema deve permitir que o administrador tenha controle de toda a agenda de procedimentos.| Alta  |  --- |
+|  RF11 | O sistema deve permitir a consulta da agenda pessoal de cada funcionário.  | Alta  | RF02  |
+|  RF12 | O sistema deve permitir o agendamento de reserva.   |Alta   |  RF08 |
+|  RF13 | O sistema deve permitir que o usuário/cliente faça o pagamento online dos seus procedimentos. |  Alta |  --- |
+|  RF14 | O sistema deve permitir visualizar a duração de cada procedimento.  |  Média | RF06  |
+|  RF15 | O sistema deve emitir relatórios gerenciais periódicos ao administrador.. | Alta  | ---  |
+|  RF16 | O sistema deve permitir que o usuário/cliente possa gerar feedback ao estabelecimento ou funcionário.|  Média |  --- |
+|  RF17 | O sistema deve emitir notificações de lembrete ao usuário/cliente.  |  Média |---   |
+
+
 
 ### Regras de Negócio 
 
@@ -49,16 +54,16 @@
 |  Identificador | Descrição  | Prioridade  | Depende De  |
 | ------------ | ------------ | ------------ | ------------ |
 | RN01  | O Sistema deve fazer a autenticação de CPF  | Alta  |  --  |
-| RN02  | A senha de login deve ter, no minimo, 6 ccaracteres númericos | Média  |  --  |
+| RN02  | A senha de login deve ter, no maximo, 15 caracteres númericos | Média  |  --  |
 | RN03  | Um profissional não poderá ser agendado por dois clientes para o mesmo horário  | Alta  |  --  |
 | RN04  | O sistema deve permitir um cadastro por CPF ou Email | Alta  |  --  |
-| RN05  | A tabela de horários preenchidos deve ser atualizada sempre após o ultimo agendamento, após no máximo 3 segundos |  Alta  |  --  |
+| RN05  | A tabela de horários preenchidos deve ser atualizada sempre após o ultimo agendamento |  Alta  |  --  |
 | RN06  | O sistema deve emitir um alerta sempre que um profissional não estiver disponivel para agendamento  |  Média |  --  |
-| RN07  | O alerta para os agendamentos de reservas deverá ser feita até 10 minutos antes do horário  | Baixa  | --  |
+| RN07  | O alerta para os agendamentos de reservas deverá ser feita com antecedencia  | Baixa  | --  |
 | RN08  | O sistema deve suportar o tráfego de pelo menos 20 usuarios conectadas simultaneamente | Média  | --  |
 | RN09  | Os dados de cadastramento armazenados devem ser criptografados | Média  | --  |
 | RN10  | O sistema deve permitir que o cliente desmarque o agendamento até 15 min antes | Alta  |  -- |
-| RN11  | A senha do usuario deverá ter, no máximo, 8 caracteres númericos | Média  | --  |
+| RN11  | A senha do usuario deverá ter, no minimo, 6 caracteres númericos | Média  | --  |
 | RN12  | O sistema deve aceitar pagamentos via PIX, cartão de Credito ou no Local | Baixa |  -- |
 | RN13  | Ao concluir um agendamento o sistema deve solicitar o modo de pagamento  | Médio  |  -- |
 | RN14  | Após conclusão do procedimento o sistema deve gerar uma notificação de feedback ao cliente   | Baixa  |  -- |
